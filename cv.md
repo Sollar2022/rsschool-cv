@@ -2,7 +2,7 @@
 
 ## Contacts:
 * __Location:__ Kharkiv, Ukraine
-* __Discord:__
+* __Discord:__ sollar2022
 * __E-mail:__  sollar2000@gmail.com
 * __Tel:__  +380677853858
 * __GitHub:__ Sollar2022
@@ -22,27 +22,35 @@ I believe, that my ability to learn and to gain new skills will lead me through 
 
 ## Skills and Proficiency:
 * __HTML5, CSS3__
-* __JavaScript Basics (in progress)__
-* __Git, GitHub (in progress)__
+* __JavaScript Basics__ _(in progress)_
+
+* __Git, GitHub__ _(in progress)_
 
 ## Code example:
-```      ```
+```
+function multiply(a, b){
+ return a * b
+}
+
+```
 
 ## Work experience:
    _Nothing yet…_
 
 ## Education and courses:
-### Education
+### Education:
 __University:__ National Aerospace University «Kharkiv Aviation Institute», 
+
 Satellites, Engines and Power Plants Engineering 
+
 ### Courses: 
-__FreeCodeCamp__  Course Basic HTML, CSS
-__RS Schools__ Course «JavaScript/Front-end. Stage 0» (in progress)
+* __FreeCodeCamp__   Course Basic HTML, CSS
+* __RS Schools__  Course «JavaScript/Front-end. Stage 0» _(in progress)_
 
 ## Language:
-*__English level – A1__
-*__Russian - Native__ 
-*__Ukrainian - Basic__
+* __English level – A1__
+* __Russian - Native__ 
+* __Ukrainian - Basic__
 
 
 
