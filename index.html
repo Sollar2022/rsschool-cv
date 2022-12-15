@@ -1,138 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV#2. HTML, CSS & Git Basics</title>
-    <link rel="stylesheet" href="./Styles/styles.css">
+<html lang="en"><head>
+	<meta charset="UTF-8">
+	<title>cv</title>
+	<link rel="icon" href="./assets/favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-    <div class="main">
-        <!--Main Content-->
-        <div class="Main_Content">
-           <!--about user-->
-           <div class="about">
-               <h2 class="about-position">Front-End Developer</h2>
-               <h1 class="about-name"> Hennadii Luchko</h1>
-               <h3 class="title">
-                About myself:
-            </h3>
-               <p class="about-description">I’m interested in Web Development because this occupation provides endless possibilities for professional growth, besides there’s a huge amount of free high quality resources for self-education and a large community of developers.
-                I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.
-                </p>  
-                <h4>My strengths: </h4>
+	<header class="header">
+		<div class="container header-container">
+			<nav class="nav">
+				<ul class="nav-list">          
+					<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+					<li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+					<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>          
+					<li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+					<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+					<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+					<li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+				</ul>
+			</nav>
+            <!-- <div class="toggle">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div> -->
+		</div>
+	</header>
+	<main class="main">
+		<div class="container main-container">
+			<section class="section section-profile" id="profile">
+				<img src="./assets/img/photo.jpg" alt="My photo" class="section-profile-logo">
+				<div class="section-profile-title">
+					<h1 class="section-title main-title">Luchko Hennadii</h1>
+					<h3 class="section-subtitle">Junior Front-End Developer</h3>
+				</div>        
+			</section>
+			<section class="section" id="contacts">
+				<h2 class="section-title">Contacts</h2>
+				<ul class="section-list">
+					<li class="section-item contacts-item">
+						Kharkiv, Ukraine
+					</li>
+					<li class="section-item contacts-item">
+						Email: <a href="mailto:sollar2000@gmail.com" title="email">sollar2000@gmail.com</a>
+					</li>
+					<li class="section-item contacts-item">
+						Github: <a href="https://github.com/Sollar2022" title="github">Sollar2022</a>
+					</li>
+					<li class="section-item contacts-item">
+						Telegram: <a href="https://t.me/Hennadii_te" title="github">@Hennadii_te</a>
+					</li>
+					<li class="section-item contacts-item">
+						Discord: <a href="https://discord.com/channels/@me" title="github">sollar2022#2003</a>
+					</li>
+				</ul>
+			</section>
+			<section class="section" id="summary">
+				<h2 class="section-title">Summary</h2>
+				<p>
+					I’m interested in Web Development because this occupation provides endless possibilities for professional growth, besides there’s a huge amount of free high quality resources for self-education and a large community of developers.
+					I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.
+				</p>
+				<p>My strengths: </p>
                 <ul> <li>Quick learner</li>
                 <li>Full immersion in the essence of the problems</li>
                 <li>Diligence</li>
                 <li>Team playing</li>
                 <li>Punctual</li>
                 </ul>
+			</section>
+			<section class="section" id="skills">
+				<h2 class="section-title">Skills</h2>
+				<ul class="section-list">
+					<li class="section-item">
+						Web-development:<span> HTML5, CSS3, JavaScript</span>
+					</li>
+					<li class="section-item">
+						Frameworks and libraries:<span> React</span>
+					</li>
+					<li class="section-item">
+						Version control:<span> GIT, Github</span>
+					</li>
+					<li class="section-item">
+						Graphics:<span> Figma</span>
+					</li>
+				</ul>
+			</section>
+			<section class="section" id="code">
+				<h2 class="section-title">Code</h2>
+				<pre class="pre">
+			  <code>
+function multiply(a, b){
+return a * b
+}</code></pre>
+			</section>
+			<section class="section" id="courses">
+				<h2 class="section-title">Courses</h2>
+				<ul class="section-list">
+					<li class="section-item">
+						GOIT<span> - HTML+CSS for beginner</span>
+					</li>
+					<li class="section-item">
+						FreeCodeCamp<span> - Basic HTML, CSS</span>
+					</li>
+					<li class="section-item">
+						RS Schools Course<span> - JavaScript/Front-end. Stage 0 (in progress)</span>
+					</li>
+				</ul>
+			</section>
+			<section class="section" id="projects">
+				<h2 class="section-title">Projects</h2>
+				<ul class="section-list">
+					<li class="section-item">
+						<a href="https://lambent-torrone-dd8164.netlify.app">1 Project</a>
+					</li>          
+					<li class="section-item">
+						<a href="https://meek-sopapillas-1b6c5f.netlify.app/">2 Project</a>
+					</li>
+					<li class="section-item">
+						<a href="https://github.com/Sollar2022/rsschool-cv/blob/gh-pages/cv.md">2 Project</a>
+					</li>
+				</ul>
+			</section>
+			<section class="section section-education" id="education">
+				<h2 class="section-title">Education</h2>
+				<p>National Aerospace University «Kharkiv Aviation Institute»</p>
+			</section>
+			<section class="section section-english" id="english">
+				<h2 class="section-title">English</h2>
+				<p>A2 - Elementary</p>
+			</section>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container footer-container">
+			<div>© 2022 <a href="#" class="github nav-link"></a></div>
+			<a href="https://rs.school/js/" class="rss"></a>
+		</div>
+	</footer>
+	<!-- <script src="./index.js"></script> -->
+    <!-- <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
+        <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+    </svg> -->
 
-           </div>
-           <!--Projects-->
-           <div class="projects">
-               <h3 class="title">
-                   Projects
-               </h3>
-               <ol class="projects-list">
-                   <li class="project-item">
-                       <span class="project">
-                           <a href="" class="project-link">https://lambent-torrone-dd8164.netlify.app</a>   
-                        </span>
-
-                   </li>
-                   <li class="project-item">
-                       <span class="project">
-                           <a href="" class="project-link">https://meek-sopapillas-1b6c5f.netlify.app/</a>
-                       </span>
-                       
-                   </li>
-                   <li class="project-item">
-                       <span class="project">
-                       <a href="" class="project-link">https://github.com/Sollar2022/rsschool-cv/blob/gh-pages/cv.md</a>
-                   </span>
-                   </li>
-               </ol>
-           </div>
-           <!--Work-->
-           <div class="work">
-               <h3 class="title">Work Experience</h3>
-                <p>Nothing yet…</p>
-               </div>
-           </div>
-           <!--Education-->
-           <div class="education">
-               <h3 class="title">Education</h3>
-               <!--University-->
-                   <h4 class="university">National Aerospace University «Kharkiv Aviation Institute»</h4>
-                   <h4 class="department">Satellites, Engines and Power Plants Engineering </h4>
-                   <p class="period">September 1985 - February 1993 <span class="line">|</span>  Ukraine</p>
-                    
-               <!--Courses-->
-                   <h4>Courses:</h4>
-                   <ul>
-                    <li>
-                        <h5 class="">GOIT <span>HTML+CSS for beginners</span> </h5>
-                   <p class="period">September 2022 - October 2022 <span class="line">|</span>  on line</p>
-                    </li>
-                    <li>
-                        <h5 class="">FreeCodeCamp <span>Basic HTML, CSS</span> </h5>
-                   <p class="period">October 2022 - December 2022 <span class="line">|</span>  on line</p>
-                    </li>
-                   
-                   <li><h5 class="">RS Schools Course <span>JavaScript/Front-end. Stage 0</span> </h5>
-                    <p class="period"> (in progress) <span class="line">|</span>  on line</p> </li>
-                   </ul>     
-           </div>
-   
-        </div> 
-        <!--Sidebar-->  
-        <aside class="sidebar">
-           <img src="img/photo.jpg" alt="user photo" class="photo">
-           <!--Contacts-->
-           <div class="contacts">
-               <h3 class="sidebar-title">Contacts</h3>
-               <div>
-                  <p>
-                   <span class="contact-type">Tel:</span>
-                   <a href="tel:+77777777777" class="contact-link">+7 777 777 77 77</a>
-               </p>    
-                 <p>
-                   <span class="contact-type">E-mail:</span>
-                   <a href="mailto:sollar2000@gmail.com" class="contact-link">sollar2000@gmail.com</a>
-               </p>  
-               <p>
-                <span class="contact-type">GitHub:</span>
-                <a href="https://github.com/Sollar2022" class="contact-link">Sollar2022</a>
-            </p>  
-            <p>
-                <span class="contact-type">Discord: sollar2022</span>
-            </p>  
-               </div>
-           </div>
-           <!--Tech skills-->
-           <div class="tech-skills">
-               <h3 class="sidebar-title">Skills and Proficiency:</h3>
-               <ul class="tech-skills-list">
-                   <li class="tech-skills-item"><span class="tech-skills-text">HTML5</span></li>
-                   <li class="tech-skills-item"><span class="tech-skills-text">CSS3</span></li>
-                   <li class="tech-skills-item"><span class="tech-skills-text">GIT, GitHub (in progress)</span></li>
-                   <li class="tech-skills-item"><span class="tech-skills-text">JavaScript (in progress)</span></li>
-               </ul>
-           </div>
-           <!--Soft Skills-->
-           <div class="soft-skills">
-               <h3 class="sidebar-title">Soft Skills</h3> 
-           <ul class="soft-skills-list">
-               <li class="soft-skills-item"><span class="soft-skills-text">Scrum</span></li>
-               <li class="soft-skills-item"><span class="soft-skills-text">Agile</span></li>
-               <li class="soft-skills-item"><span class="soft-skills-text">GTD</span></li>
-               <li class="soft-skills-item"><span class="soft-skills-text">Teamwork</span></li>
-           </ul>
-       </div>  
-       
-        </aside>
 
 </body>
 </html>
