@@ -140,7 +140,7 @@
   .pre {
     padding: 5px 50px;
     margin: 0;
-    border: 2px solid var(--main-color);
+    border: 1px solid var(--main-color);
     border-radius: 30px;
     background: var(--main-white-color);
     color: var(--main-color); 
