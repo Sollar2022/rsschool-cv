@@ -1,3 +1,12 @@
+:root {
+  --main-color: #2D826E;
+  --main-text-color: #16B78F;
+  --main-white-color: #fff;
+  --border-bottom-color: #08345D;
+  --profile-border-color: #98A6AD;
+  --subtitle-color: #878680;
+}
+
 * {
     box-sizing: border-box;
   }
@@ -18,7 +27,8 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    color: #4d2323;
+    color: var(--main-text-color);
+    background-color: #FCEDBA;
   }
   
   .container {
@@ -28,7 +38,23 @@
   }
   
   .header {
-    background-color: #829985;
+    background-color: var(--main-color);
+  }
+
+  .header-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .nav-logo {
+    width: 5vw;
+    height: 2.5vw;
+  }
+
+  .logo {
+    margin-right: 200px;
   }
   
   .nav-list {
@@ -37,15 +63,15 @@
     align-items: center;
     list-style: none;
   }
-  
+
   .nav-link {
     position: relative;
     padding: 0 12px;
     text-decoration: none;
     font-size: 20px;
     font-weight: 300;
-    line-height: 50px;
-    color: #fff; 
+    line-height: 2.5;
+    color: var(--main-white-color); 
   }
   
   .nav-link::after {
@@ -55,9 +81,9 @@
     bottom: -5px;
     width: calc(100% - 24px);
     height: 2px;
-    background-color: #fff;
+    background-color: var(--main-white-color);
     opacity: 0;
-    transition: .5s;
+    transition: .3s;
   }
   
   .nav-link:hover::after {
@@ -90,12 +116,7 @@
     width: calc(50% - 20px);
     padding: 10px;
     padding-bottom: 35px;
-    border-bottom: 1px solid #672f2f;
-  }
-  
-  .section-education,
-  .section-english {
-    border-bottom: 0;
+    border-bottom: 1px solid var(--border-bottom-color);
   }
   
   .section-title {
@@ -104,7 +125,7 @@
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #829985;
+    color: var(--main-color);
   }
   
   .section-profile {
@@ -112,7 +133,7 @@
     justify-content: space-around;
     width: 100%;
     padding: 50px 30px 35px;
-    border-bottom: 15px solid #d7d1c9;
+    border-bottom: 8px solid var(--profile-border-color);
   }
   
   .pre {
@@ -128,16 +149,16 @@
     text-align: center;  
     text-transform: uppercase;
   }
-  
+
   .main-title {
     position: relative;
     padding: 0;
     margin-bottom: 20px;
-    color: #4d2323;
+    color: var(--main-text-color);
     font-size: 32px;
     font-weight: 300;
     letter-spacing: 10px;
-    line-height: 50px;
+    line-height: 1.56;
     word-spacing: 3px;
   }
   
@@ -149,20 +170,21 @@
     margin-left: -70px;
     width: 140px;
     height: 2px;
-    background-color: #829985;
+    background-color: var(--main-color);
   }
   
   .section-subtitle {
     margin-top: 20px;
-    color: #5c5c5c;
-    line-height: 50px;
-    font-weight: 300;
+    color: var(--subtitle-color);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 2.27;
     letter-spacing: 2px;
   }
   
   .section-profile-logo {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
@@ -200,17 +222,17 @@
   }
   
   .section-item span {
-    color: #829985;
+    color: var(--subtitle-color);
   }
   
   .section-item a {
     text-decoration: none;
-    color: #829985;
+    color: var(--subtitle-color);
     transition: color 0.5s;
   }
   
   .section-item a:hover {
-    color: #4d2323;
+    color: var(--main-text-color);
   }
   
   .contacts-item:before {
@@ -255,9 +277,14 @@
   .contacts-item:nth-child(5):before {
     background-image: url("assets/svg/5.svg");
   }
+
+  .section-education,
+  .section-english {
+    border-bottom: 0;
+  }
   
   .footer {
-    background-color: #829985;
+    background-color: var(--main-color);
     padding: 20px;  
   }
   
@@ -266,11 +293,11 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    color: #fff;
+    color: var(--main-white-color);
   }
   
   .github {
-    color: #fff;
+    color: var(--link-color);
     text-decoration: none;
     line-height: 45px;
   }
@@ -283,7 +310,6 @@
     background-repeat: no-repeat;
   }
   
-  /** Adaptive **/
   .toggle {
     display: none;
     flex-direction: column;
@@ -333,7 +359,7 @@
       align-items: center;
     }  
     .section-education {
-      border-bottom: 1px solid #672f2f;
+      border-bottom: 1px solid var(--border-bottom-color);
     }
     .footer-container {
       flex-direction: column;
@@ -355,7 +381,7 @@
       height: 100vh;
       min-height: 525px;
       flex-direction: column;
-      background-color: #829985;
+      background-color: var(--main-color);
     }
     .nav-list.collapsed {
       display: flex;

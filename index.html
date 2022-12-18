@@ -11,22 +11,27 @@
 <body>
 	<header class="header">
 		<div class="container header-container">
+			<div class="logo">
+				<a href="./index.html" class="nav-link"><img src="./assets/img/logo.png" class="nav-logo" alt="My logo" ></a>
+			</div> 
 			<nav class="nav">
-				<ul class="nav-list">          
+				<ul class="nav-list">         
 					<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
 					<li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-					<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>          
+					<li class="nav-item"><a href="#strengths" class="nav-link">My strengths</a></li>
+					<li class="nav-item"><a href="#skills" class="nav-link">Tech Skills</a></li>  
+					<li class="nav-item"><a href="#softskills" class="nav-link">Soft Skills</a></li>         
 					<li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
 					<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
 					<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
 					<li class="nav-item"><a href="#english" class="nav-link">English</a></li>
 				</ul>
 			</nav>
-            <!-- <div class="toggle">
+            <div class="toggle">
 				<div class="line1"></div>
 				<div class="line2"></div>
 				<div class="line3"></div>
-			</div> -->
+			</div>
 		</div>
 	</header>
 	<main class="main">
@@ -64,16 +69,9 @@
 					I’m interested in Web Development because this occupation provides endless possibilities for professional growth, besides there’s a huge amount of free high quality resources for self-education and a large community of developers.
 					I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.
 				</p>
-				<p>My strengths: </p>
-                <ul> <li>Quick learner</li>
-                <li>Full immersion in the essence of the problems</li>
-                <li>Diligence</li>
-                <li>Team playing</li>
-                <li>Punctual</li>
-                </ul>
 			</section>
 			<section class="section" id="skills">
-				<h2 class="section-title">Skills</h2>
+				<h2 class="section-title">Tech Skills</h2>
 				<ul class="section-list">
 					<li class="section-item">
 						Web-development:<span> HTML5, CSS3, JavaScript</span>
@@ -87,6 +85,25 @@
 					<li class="section-item">
 						Graphics:<span> Figma</span>
 					</li>
+				</ul>
+			</section>
+			<section class="section" id="strengths">
+				<h2 class="section-title">My strengths</h2>
+				<ul class="section-list">
+					<li class="section-item">Quick learner</li>
+					<li class="section-item">Full immersion in the essence of the problems</li>
+					<li class="section-item">Diligence</li>
+					<li class="section-item">Team playing</li>
+					<li class="section-item">Punctual</li>
+	            </ul>
+			</section>
+			<section class="section" id="softskills">
+				<h2 class="section-title">Soft Skills</h2>
+				<ul class="section-list">
+					<li class="section-item">Scrum</li>
+					<li class="section-item">Agile</li>
+					<li class="section-item">GTD</li>
+					<li class="section-item">Teamwork</li>
 				</ul>
 			</section>
 			<section class="section" id="code">
@@ -115,13 +132,13 @@ return a * b
 				<h2 class="section-title">Projects</h2>
 				<ul class="section-list">
 					<li class="section-item">
-						<a href="https://lambent-torrone-dd8164.netlify.app">1 Project</a>
+						<a href="https://meek-sopapillas-1b6c5f.netlify.app/">Created for GOIT</a>
 					</li>          
 					<li class="section-item">
-						<a href="https://meek-sopapillas-1b6c5f.netlify.app/">2 Project</a>
+						<a href="https://dulcet-marzipan-79265d.netlify.app/">Created for FreeCodeCamp</a>
 					</li>
 					<li class="section-item">
-						<a href="https://github.com/Sollar2022/rsschool-cv/blob/gh-pages/cv.md">2 Project</a>
+						<a href="https://github.com/Sollar2022/rsschool-cv/blob/gh-pages/cv.md">Created for RS Schools Course</a>
 					</li>
 				</ul>
 			</section>
@@ -137,15 +154,9 @@ return a * b
 	</main>
 	<footer class="footer">
 		<div class="container footer-container">
-			<div>© 2022 <a href="#" class="github nav-link"></a></div>
+			<div>© 2022 <a href="https://github.com/Sollar2022" class="github nav-link">Sollar2022</a></div>	
 			<a href="https://rs.school/js/" class="rss"></a>
 		</div>
 	</footer>
-	<!-- <script src="./index.js"></script> -->
-    <!-- <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
-        <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
-    </svg> -->
-
-
 </body>
 </html>
