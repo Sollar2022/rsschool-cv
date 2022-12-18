@@ -5,6 +5,7 @@
   --border-bottom-color: #08345D;
   --profile-border-color: #98A6AD;
   --subtitle-color: #878680;
+  --primary-background-color: #FCEDBA;
 }
 
 * {
@@ -28,7 +29,7 @@
     font-weight: 400;
     line-height: 1.5;
     color: var(--main-text-color);
-    background-color: #FCEDBA;
+    background-color: var(--primary-background-color);
   }
   
   .container {
@@ -167,8 +168,8 @@
     position: absolute;
     bottom: -19px;
     left: 50%;
-    margin-left: -70px;
-    width: 140px;
+    margin-left: -100px;
+    width: 200px;
     height: 2px;
     background-color: var(--main-color);
   }
