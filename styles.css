@@ -138,8 +138,12 @@
   }
   
   .pre {
-    padding: 0;
+    padding: 5px 50px;
     margin: 0;
+    border: 2px solid var(--main-color);
+    border-radius: 30px;
+    background: var(--main-white-color);
+    color: var(--main-color); 
   }
   
   .section-profile-title {
@@ -304,8 +308,8 @@
   }
   
   .rss {
-    width: 121px;
-    height: 45px;
+    width: 95px;
+    height: 35px;
     background-image: url("./assets/svg/rss.svg");
     background-size: contain;
     background-repeat: no-repeat;
