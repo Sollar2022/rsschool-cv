@@ -1,0 +1,290 @@
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+
+  body {
+  min-height: 100vh;
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+  }
+.head-container {
+   /* display: flex;
+    
+    justify-content: space-around;  
+    /* flex-flow: row nowrap; */ 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+    align-content: stretch;
+}
+  .header {
+    height: 134px;
+    background-color: #EDF2EC;
+
+    display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  }
+
+.nav {
+  flex-grow: 1;
+}
+
+.nav-list {
+ display: flex;
+  flex-flow: row nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 50px;
+color: ##010201;
+transition: .3s;
+}
+
+.nav-link:hover {
+    color: #E06733;
+}
+
+/*Section Welcome*/
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDF2EC;
+}
+
+h1 {
+   font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 50px;
+color: #717171; 
+}
+
+span {
+    color: #499A18;
+}
+.welcome-text {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+color: #636060;
+}
+.main-btn {
+    width: 158px;
+height: 44px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+background-color: #EDF2EC;
+border: 2px solid #E06733;
+border-radius: 10px;
+color: #000000;
+}
+/*Section About*/
+.about-title {
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+color: #E06733;
+}
+.about-text {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #636060;
+}
+/*Section Service*/
+
+.service {
+background-color: #EDF2EC;
+}
+.service-title {
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+color: #499A18;
+}
+
+.service-list {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.service-btn {
+    box-sizing: border-box;
+width: 161px;
+height: 50px;
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color: #E06733;
+background-color: #EDF2EC;
+border: 1px solid #E06733;
+border-radius: 5px;
+}
+
+/*.card-item {
+background: url(pexels-gary-barnes-6231690.jpg);
+border-radius: 20px 20px 0px 0px;
+}*/
+/*Карточка : border: 1px solid #E3E1D5;
+border-radius: 0px 0px 20px 20px;*/
+.service-item {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+/*text-align: center;*/
+color: #E06733;
+}
+
+.service-text {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #717171;
+}
+
+/*Section Prices*/
+
+.prices-title {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+.prices-text {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+text-align: right;
+}
+.prices-btn {
+    font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+
+text-align: center;
+
+color: #E06733;
+box-sizing: border-box;
+width: 162px;
+height: 50px;
+border: 1px solid #E06733;
+border-radius: 5px;
+background-color: #FFFFFF;
+}
+
+form {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+color: #000000;
+background-color: #EDF2EC;
+}
+
+.contacts {
+    background-color: #EDF2EC;
+}
+.contacts-title {
+    font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+
+color: #499A18;
+}
+.contacts-btn {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+letter-spacing: 0.05em;
+width: 450px;
+height: 50px;
+
+color: #717171;
+background-color: #D6E7D2;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.footer-data {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 50px;
+color: #000000;
+}
+.footer-link {
+    top: calc(50% - 50px/2);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 50px;
+color: #000000;
+}
+.social-list {
+    display: inline-block;
+}
