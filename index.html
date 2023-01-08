@@ -1,162 +1,206 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-	<meta charset="UTF-8">
-	<title>cv</title>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Plants</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
 	<link rel="icon" href="./assets/favicon.ico">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-	<link rel="stylesheet" href="./styles.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="">
 </head>
-
 <body>
 	<header class="header">
 		<div class="container header-container">
-			<div class="logo">
-				<a href="./index.html" class="nav-link"><img src="./assets/img/logo.png" class="nav-logo" alt="My logo" ></a>
-			</div> 
+			<div class="nav-bar">
+			<a href="./index.html" class="nav-link link"><img src="./assets/img/logo_vector.svg" class="nav-logo" alt="My logo" width="20">Plants</a>  
 			<nav class="nav">
-				<ul class="nav-list">         
-					<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-					<li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-					<li class="nav-item"><a href="#strengths" class="nav-link">My strengths</a></li>
-					<li class="nav-item"><a href="#skills" class="nav-link">Tech Skills</a></li>  
-					<li class="nav-item"><a href="#softskills" class="nav-link">Soft Skills</a></li>         
-					<li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-					<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-					<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-					<li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+				<ul class="nav-list list">
+					<li class="nav-item"><a href="#home" class="nav-link link">Home</a></li>
+					<li class="nav-item"><a href="#about" class="nav-link link">About us</a></li>
+					<li class="nav-item"><a href="#service" class="nav-link link">Service</a></li>
+					<li class="nav-item"><a href="#price" class="nav-link link">Price</a></li>  
+					<li class="nav-item"><a href="#contacts" class="nav-link link">Contacts</a></li>         
 				</ul>
 			</nav>
-            <div class="toggle">
+			</div>
+            <!-- <div class="toggle">
 				<div class="line1"></div>
 				<div class="line2"></div>
 				<div class="line3"></div>
-			</div>
+			</div> -->
 		</div>
 	</header>
-	<main class="main">
-		<div class="container main-container">
-			<section class="section section-profile" id="profile">
-				<img src="./assets/img/photo.jpg" alt="My photo" class="section-profile-logo">
-				<div class="section-profile-title">
-					<h1 class="section-title main-title">Luchko Hennadii</h1>
-					<h3 class="section-subtitle">Junior Front-End Developer</h3>
-				</div>        
+	<main>
+		<div class="container">
+			<section class="welcome">
+				<div class="welcome-wraper">
+					<img class="welcome-img" src="./assets/img/leafs.png" alt="leafs" width="449">
+					<div class="welcome-info">
+						<h1 class="welcome-title">We grow <span>plants</span>  and give you oxygen</h1>
+						<p class="welcome-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+						<button type="button" class="main-btn">learn more</button>
+					</div>
+				</div>	
 			</section>
-			<section class="section" id="contacts">
-				<h2 class="section-title">Contacts</h2>
-				<ul class="section-list">
-					<li class="section-item contacts-item">
-						Kharkiv, Ukraine
+			<section class="about" id="about">
+				<div class="about-info">
+					<h2 class="about-title"><span>We are</span> professional experienced <span>gardeners</span></h2>
+					<p class="about-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+				</div>
+				<img class="about-img" src="./assets/img/houseplant_one.jpg" width="464" alt="houseplant">
+		</section >
+		<section class="service" id="service">
+			<div class="service-header">
+				<h2 class="service-title">Service and our projects</h2>
+				<ul class="list service-list">
+					<li><button type="button" class="service-btn current-button">Gardens</button></li>
+					<li><button type="button" class="service-btn current-button">Lawn</button></li>
+					<li><button type="button" class="service-btn current-button">Planting</button></li>
+				</ul>
+			</div>
+			<div class="container">
+				<ul class="card-list list">
+					<li class="card-item">
+						<a class="link card-link" href="#">
+							<img class="card_img" src="./assets/img/garden_care.png" alt="Garden care" width="329">
+							<h3 class="service-item">Garden care</h3>
+							<p class="service-text">Lorem Ipsum has been the industry</p>
+						</a>
 					</li>
-					<li class="section-item contacts-item">
-						Email: <a href="mailto:sollar2000@gmail.com" title="email">sollar2000@gmail.com</a>
+					<li class="card-item">
+						<a class="link" href="#">
+							<img class="card_img" src="./assets/img/planting_one.png" alt="Planting" width="329">
+							<h3 class="service-item">Planting</h3>
+							<p class="service-text">Lorem Ipsum has been the industry</p>
+						</a>
 					</li>
-					<li class="section-item contacts-item">
-						Github: <a href="https://github.com/Sollar2022" title="github">Sollar2022</a>
+					<li class="card-item">
+						<a class="link" href="#">
+							<img class="card_img" src="./assets/img/lawn_care.png" alt="Lawn care" width="329">
+							<h3 class="service-item">Lawn care</h3>
+							<p class="service-text">Lorem Ipsum has been the industry</p>
+						</a>
 					</li>
-					<li class="section-item contacts-item">
-						Telegram: <a href="https://t.me/Hennadii_te" title="github">@Hennadii_te</a>
+					<li class="card-item">
+						<a class="link" href="#">
+							<img class="card_img" src="./assets/img/planting_two.png" alt="Planting" width="329">
+							<h3 class="service-item">Planting</h3>
+							<p class="service-text">Lorem Ipsum has been the industry</p>
+						</a>
 					</li>
-					<li class="section-item contacts-item">
-						Discord: <a href="https://discord.com/channels/@me" title="github">sollar2022#2003</a>
+					<li class="card-item">
+						<a class="link" href="#">
+							<img class="card_img" src="./assets/img/garden_care_two.png" alt="Garden care" width="329">
+							<h3 class="service-item">Garden care</h3>
+							<p class="service-text">Lorem Ipsum has been the industry</p>
+						</a>
+					</li>
+					<li class="card-item">
+						<a class="link" href="#">
+							<img class="card_img" src="./assets/img/planting_three.png" alt="Planting" width="329">
+							<h3 class="service-item">Planting</h3>
+							<p class="service-text">Lorem Ipsum has been the industry</p>
+						</a>
 					</li>
 				</ul>
-			</section>
-			<section class="section" id="summary">
-				<h2 class="section-title">Summary</h2>
-				<p>
-					I’m interested in Web Development because this occupation provides endless possibilities for professional growth, besides there’s a huge amount of free high quality resources for self-education and a large community of developers.
-					I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.
-				</p>
-			</section>
-			<section class="section" id="skills">
-				<h2 class="section-title">Tech Skills</h2>
-				<ul class="section-list">
-					<li class="section-item">
-						Web-development:<span> HTML5, CSS3, JavaScript</span>
-					</li>
-					<li class="section-item">
-						Frameworks and libraries:<span> React</span>
-					</li>
-					<li class="section-item">
-						Version control:<span> GIT, Github</span>
-					</li>
-					<li class="section-item">
-						Graphics:<span> Figma</span>
-					</li>
-				</ul>
-			</section>
-			<section class="section" id="strengths">
-				<h2 class="section-title">My strengths</h2>
-				<ul class="section-list">
-					<li class="section-item">Quick learner</li>
-					<li class="section-item">Full immersion in the essence of the problems</li>
-					<li class="section-item">Diligence</li>
-					<li class="section-item">Team playing</li>
-					<li class="section-item">Punctual</li>
-	            </ul>
-			</section>
-			<section class="section" id="softskills">
-				<h2 class="section-title">Soft Skills</h2>
-				<ul class="section-list">
-					<li class="section-item">Scrum</li>
-					<li class="section-item">Agile</li>
-					<li class="section-item">GTD</li>
-					<li class="section-item">Teamwork</li>
-				</ul>
-			</section>
-			<section class="section" id="code">
-				<h2 class="section-title">Code</h2>
-				<pre class="pre">
-			  <code>
-function multiply(a, b){
-return a * b
-}</code></pre>
-			</section>
-			<section class="section" id="courses">
-				<h2 class="section-title">Courses</h2>
-				<ul class="section-list">
-					<li class="section-item">
-						GOIT<span> - HTML+CSS for beginner</span>
-					</li>
-					<li class="section-item">
-						FreeCodeCamp<span> - Basic HTML, CSS</span>
-					</li>
-					<li class="section-item">
-						RS Schools Course<span> - JavaScript/Front-end. Stage 0 (in progress)</span>
-					</li>
-				</ul>
-			</section>
-			<section class="section" id="projects">
-				<h2 class="section-title">Projects</h2>
-				<ul class="section-list">
-					<li class="section-item">
-						<a href="https://meek-sopapillas-1b6c5f.netlify.app/">Created for GOIT</a>
-					</li>          
-					<li class="section-item">
-						<a href="https://dulcet-marzipan-79265d.netlify.app/">Created for FreeCodeCamp</a>
-					</li>
-					<li class="section-item">
-						<a href="https://github.com/Sollar2022/rsschool-cv/blob/gh-pages/cv.md">Created for RS Schools Course</a>
-					</li>
-				</ul>
-			</section>
-			<section class="section section-education" id="education">
-				<h2 class="section-title">Education</h2>
-				<p>National Aerospace University «Kharkiv Aviation Institute»</p>
-			</section>
-			<section class="section section-english" id="english">
-				<h2 class="section-title">English</h2>
-				<p>A2 - Elementary</p>
-			</section>
-		</div>
+			</div>
+		</section>
+		<section class="prices" id="prices">
+			<div class="prices-wraper">
+				<div class="prices-select">
+					<h2 class="prices-title">Prices</h2>
+					<div class="accordion">
+						<div class="tab">
+            				<input type="checkbox" id="tab1" name="tab__group">
+            				<label for="tab1" class="tab__title">Basics</label> 
+            				<div class="tab__content"> 
+            					<div class="tab__contentInfo">
+               						<p class="tab__descript">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+               						<p class="tab__cost"><span>$15</span> / per hour</p>
+               						<a href="#" class="tab__link link">Order</a>
+               					</div>
+            				</div> 
+        				</div> 
+        				<div class="tab">
+            				<input type="checkbox" id="tab2" name="tab__group">
+            				<label for="tab2" class="tab__title">Standard</label> 
+            				<div class="tab__content"> 
+            					<div class="tab__contentInfo">
+                					<p class="tab__descript">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                					<p class="tab__cost"><span>$25</span> / per hour</p>
+                					<a href="#" class="tab__link link">Order</a>
+                				</div>
+            				</div> 
+        				</div> 
+        				<div class="tab">
+            				<input type="checkbox" id="tab3" name="tab__group">
+            				<label for="tab3" class="tab__title">Pro care</label> 
+            				<div class="tab__content"> 
+            					<div class="tab__contentInfo">
+                					<p class="tab__descript">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                					<p class="tab__cost"><span>$35</span> / per hour</p>
+                					<a href="#" class="tab__link link">Order</a>
+                				</div>
+            				</div>
+        				</div>
+					</div>
+				</div>
+				<div class="prices-info">
+					<p class="prices-text">Our best <span>gardeners</span>  are ready to help you</p>
+					<button class="prices-btn link">Contact us</button>
+					<img class="prices-img" src="./assets/img/leafs_two.jpg" alt="leafs" width="152">
+				</div>
+			</div>
+		</section>
+		<section class="contacts" id="contacts">
+			<img class="contacts__img" src="./assets/img/contact_woman.png" alt="contact woman" width="400">
+			<div class="contacts__info">
+				<h2 class="contacts-title">Contact us</h2>
+				<!-- <button class="contacts-btn">City</button> -->
+				<div class="select__header">
+					<span class="select__current">City</span>
+					<div class="select__icon"><img src="./assets/svg/accordion_btn.svg" width="16" alt="arrow up"></div>
+				</div>
+
+				<!-- <div class="select is-active">
+					<div class="select__header">
+						<span class="select__current">City</span>
+						<div class="select__icon"><img src="./assets/svg/accordion_btn_active.svg" width="16"></div>
+					</div>
+
+					<div class="select__body">
+						<div class="items">
+							<div class="select__item">Canandaigua, NY</div>
+						</div>
+						<div class="items">
+							<div class="select__item">New York City</div>
+						</div>
+						<div class="items">
+							<div class="select__item">Yonkers, NY</div>
+						</div>
+						<div class="items">
+							<div class="select__item">Sherrill, NY</div>
+						</div>
+					</div> -->
+
+				</div>
+		</section>	
+	</div>
 	</main>
-	<footer class="footer">
+	<footer>
 		<div class="container footer-container">
-			<div>© 2022 <a href="https://github.com/Sollar2022" class="github nav-link">Sollar2022</a></div>	
-			<a href="https://rs.school/js/" class="rss"></a>
+			<div class="footer-data">©<span>2023</span> <a class="link" href="https://github.com/Sollar2022"> github</a></div>
+			<a class="footer-link link rss" href="https://rs.school/js/">Rolling Scopes School</a>	
+			<ul class="social-list list">
+				<li><a href="#"><img class="social-img" src="./assets/img/inst.svg" alt="Instagram" width="32"></a></li>
+				<li><a href="#"><img class="social-img" src="./assets/img/fb.svg" alt="Facebook" width="32"></a></li>
+				<li><a href="#"><img class="social-img" src="./assets/img/tw.svg" alt="Tweetter" width="32"></a></li>
+				<li><a href="#"><img class="social-img" src="./assets/img/pinterest.svg" alt="Pinterest" width="32"></a></li>
+			</ul>
 		</div>
 	</footer>
+	<script src="./index.js"></script>
 </body>
 </html>
+
