@@ -4,37 +4,40 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Plants</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
 	<link rel="icon" href="./assets/favicon.ico">
 	<link rel="stylesheet" href="./style.css">
-	<link rel="stylesheet" type="text/css" href="">
 </head>
 <body>
+	
 	<header class="header">
 		<div class="container header-container">
 			<div class="nav-bar">
 			<a href="./index.html" class="nav-link link"><img src="./assets/img/logo_vector.svg" class="nav-logo" alt="My logo" width="20">Plants</a>  
 			<nav class="nav">
 				<ul class="nav-list list">
-					<li class="nav-item"><a href="#home" class="nav-link link">Home</a></li>
+					<li class="nav-item current"><a href="#home./index.html" class="nav-link link current" >Home</a></li>
 					<li class="nav-item"><a href="#about" class="nav-link link">About us</a></li>
 					<li class="nav-item"><a href="#service" class="nav-link link">Service</a></li>
-					<li class="nav-item"><a href="#price" class="nav-link link">Price</a></li>  
+					<li class="nav-item"><a href="#prices" class="nav-link link">Price</a></li>  
 					<li class="nav-item"><a href="#contacts" class="nav-link link">Contacts</a></li>         
 				</ul>
 			</nav>
-			</div>
-            <!-- <div class="toggle">
+			<div class="toggle">
 				<div class="line1"></div>
 				<div class="line2"></div>
 				<div class="line3"></div>
-			</div> -->
+				<div class="line4"></div>
+			</div>
+			</div>
 		</div>
 	</header>
+
 	<main>
-		<div class="container">
 			<section class="welcome">
-				<div class="welcome-wraper">
+				<div class="welcome-container container">
 					<img class="welcome-img" src="./assets/img/leafs.png" alt="leafs" width="449">
 					<div class="welcome-info">
 						<h1 class="welcome-title">We grow <span>plants</span>  and give you oxygen</h1>
@@ -44,13 +47,17 @@
 				</div>	
 			</section>
 			<section class="about" id="about">
-				<div class="about-info">
-					<h2 class="about-title"><span>We are</span> professional experienced <span>gardeners</span></h2>
-					<p class="about-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+				<div class="about-container container">
+					<div class="about-info">
+						<h2 class="about-title"><span>We are</span> professional experienced <span>gardeners</span></h2>
+						<p class="about-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+					</div>
+					<div class="about-img"><img class="about-img" src="./assets/img/houseplant_one.jpg" width="464" alt="houseplant"></div>
+					
 				</div>
-				<img class="about-img" src="./assets/img/houseplant_one.jpg" width="464" alt="houseplant">
-		</section >
+			</section >
 		<section class="service" id="service">
+			<div class="service-container container">
 			<div class="service-header">
 				<h2 class="service-title">Service and our projects</h2>
 				<ul class="list service-list">
@@ -59,55 +66,56 @@
 					<li><button type="button" class="service-btn current-button">Planting</button></li>
 				</ul>
 			</div>
-			<div class="container">
+			<div class="wrapper">
 				<ul class="card-list list">
 					<li class="card-item">
 						<a class="link card-link" href="#">
-							<img class="card_img" src="./assets/img/garden_care.png" alt="Garden care" width="329">
+							<div class="card_img img_one"></div>
 							<h3 class="service-item">Garden care</h3>
 							<p class="service-text">Lorem Ipsum has been the industry</p>
 						</a>
 					</li>
 					<li class="card-item">
 						<a class="link" href="#">
-							<img class="card_img" src="./assets/img/planting_one.png" alt="Planting" width="329">
+							<div class="card_img img_two"></div>
 							<h3 class="service-item">Planting</h3>
 							<p class="service-text">Lorem Ipsum has been the industry</p>
 						</a>
 					</li>
 					<li class="card-item">
 						<a class="link" href="#">
-							<img class="card_img" src="./assets/img/lawn_care.png" alt="Lawn care" width="329">
+							<div class="card_img img_three"></div>
 							<h3 class="service-item">Lawn care</h3>
 							<p class="service-text">Lorem Ipsum has been the industry</p>
 						</a>
 					</li>
 					<li class="card-item">
 						<a class="link" href="#">
-							<img class="card_img" src="./assets/img/planting_two.png" alt="Planting" width="329">
+							<div class="card_img img_four"></div>
 							<h3 class="service-item">Planting</h3>
 							<p class="service-text">Lorem Ipsum has been the industry</p>
 						</a>
 					</li>
 					<li class="card-item">
 						<a class="link" href="#">
-							<img class="card_img" src="./assets/img/garden_care_two.png" alt="Garden care" width="329">
+							<div class="card_img img_five"></div>
 							<h3 class="service-item">Garden care</h3>
 							<p class="service-text">Lorem Ipsum has been the industry</p>
 						</a>
 					</li>
 					<li class="card-item">
 						<a class="link" href="#">
-							<img class="card_img" src="./assets/img/planting_three.png" alt="Planting" width="329">
+							<div class="card_img img_six"></div>
 							<h3 class="service-item">Planting</h3>
 							<p class="service-text">Lorem Ipsum has been the industry</p>
 						</a>
 					</li>
 				</ul>
 			</div>
+		</div>
 		</section>
 		<section class="prices" id="prices">
-			<div class="prices-wraper">
+			<div class="prices-container container">
 				<div class="prices-select">
 					<h2 class="prices-title">Prices</h2>
 					<div class="accordion">
@@ -154,10 +162,10 @@
 			</div>
 		</section>
 		<section class="contacts" id="contacts">
+			<div class="contacts-container container">
 			<img class="contacts__img" src="./assets/img/contact_woman.png" alt="contact woman" width="400">
 			<div class="contacts__info">
 				<h2 class="contacts-title">Contact us</h2>
-				<!-- <button class="contacts-btn">City</button> -->
 				<div class="select__header">
 					<span class="select__current">City</span>
 					<div class="select__icon"><img src="./assets/svg/accordion_btn.svg" width="16" alt="arrow up"></div>
@@ -185,6 +193,7 @@
 					</div> -->
 
 				</div>
+			</div>
 		</section>	
 	</div>
 	</main>
@@ -204,3 +213,4 @@
 </body>
 </html>
 
+ 
