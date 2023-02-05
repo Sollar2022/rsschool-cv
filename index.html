@@ -60,50 +60,50 @@
 			<div class="service-container container">
 			<div class="service-header">
 				<h2 class="service-title">Service and our projects</h2>
-				<ul class="list service-list">
-					<li><button type="button" class="service-btn current-button">Gardens</button></li>
-					<li><button type="button" class="service-btn current-button">Lawn</button></li>
-					<li><button type="button" class="service-btn current-button">Planting</button></li>
+				<ul class="list service-list ">
+					<li><button type="button" class="service-btn">Gardens</button></li>
+					<li><button type="button" class="service-btn">Lawn</button></li>
+					<li><button type="button" class="service-btn">Planting</button></li>
 				</ul>
 			</div>
 			<div class="wrapper">
-				<ul class="card-list list">
-					<li class="card-item">
+				<ul class="card-list  cards list">
+					<li class="card-item" data-family="Gardens">
 						<a class="link card-link" href="#">
 							<div class="card_img img_one"></div>
 							<h3 class="service-item">Garden care</h3>
 							<p class="service-text">Lorem Ipsum has been the industry</p>
 						</a>
 					</li>
-					<li class="card-item">
+					<li class="card-item" data-family="Planting">
 						<a class="link" href="#">
 							<div class="card_img img_two"></div>
 							<h3 class="service-item">Planting</h3>
 							<p class="service-text">Lorem Ipsum has been the industry</p>
 						</a>
 					</li>
-					<li class="card-item">
+					<li class="card-item" data-family="Lawn">
 						<a class="link" href="#">
 							<div class="card_img img_three"></div>
 							<h3 class="service-item">Lawn care</h3>
 							<p class="service-text">Lorem Ipsum has been the industry</p>
 						</a>
 					</li>
-					<li class="card-item">
+					<li class="card-item" data-family="Planting">
 						<a class="link" href="#">
 							<div class="card_img img_four"></div>
 							<h3 class="service-item">Planting</h3>
 							<p class="service-text">Lorem Ipsum has been the industry</p>
 						</a>
 					</li>
-					<li class="card-item">
+					<li class="card-item" data-family="Gardens">
 						<a class="link" href="#">
 							<div class="card_img img_five"></div>
 							<h3 class="service-item">Garden care</h3>
 							<p class="service-text">Lorem Ipsum has been the industry</p>
 						</a>
 					</li>
-					<li class="card-item">
+					<li class="card-item" data-family="Planting">
 						<a class="link" href="#">
 							<div class="card_img img_six"></div>
 							<h3 class="service-item">Planting</h3>
@@ -119,44 +119,41 @@
 				<div class="prices-select">
 					<h2 class="prices-title">Prices</h2>
 					<div class="accordion">
-						<div class="tab">
-            				<input type="checkbox" id="tab1" name="tab__group">
-            				<label for="tab1" class="tab__title">Basics</label> 
-            				<div class="tab__content"> 
-            					<div class="tab__contentInfo">
-               						<p class="tab__descript">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
-               						<p class="tab__cost"><span>$15</span> / per hour</p>
-               						<a href="#" class="tab__link link">Order</a>
-               					</div>
-            				</div> 
-        				</div> 
-        				<div class="tab">
-            				<input type="checkbox" id="tab2" name="tab__group">
-            				<label for="tab2" class="tab__title">Standard</label> 
-            				<div class="tab__content"> 
-            					<div class="tab__contentInfo">
-                					<p class="tab__descript">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
-                					<p class="tab__cost"><span>$25</span> / per hour</p>
-                					<a href="#" class="tab__link link">Order</a>
-                				</div>
-            				</div> 
-        				</div> 
-        				<div class="tab">
-            				<input type="checkbox" id="tab3" name="tab__group">
-            				<label for="tab3" class="tab__title">Pro care</label> 
-            				<div class="tab__content"> 
-            					<div class="tab__contentInfo">
-                					<p class="tab__descript">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
-                					<p class="tab__cost"><span>$35</span> / per hour</p>
-                					<a href="#" class="tab__link link">Order</a>
-                				</div>
-            				</div>
-        				</div>
-					</div>
+						<div class="tab__wrapper">
+                        <div class="tab tab__title">Basics</div>
+                <div class="tab__content"> 
+                    <div class="tab__contentInfo">
+                        <p class="tab__descript">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                        <p class="tab__cost"><span>$15</span> / per hour</p>
+                        <a href="#contacts" class="tab__link link">Order</a>
+                    </div>
+                </div> 
+                </div>
+                <div class="tab__wrapper">
+                        <div class="tab tab__title">Standard</div>
+                <div class="tab__content"> 
+                    <div class="tab__contentInfo">
+                        <p class="tab__descript">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                        <p class="tab__cost"><span>$25</span> / per hour</p>
+                        <a href="#contacts" class="tab__link link">Order</a>
+                    </div>
+                </div>
+                </div>
+                <div class="tab__wrapper"> 
+                        <div class="tab tab__title">Pro care</div>
+                <div class="tab__content"> 
+                                <div class="tab__contentInfo">
+                                    <p class="tab__descript">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                    <p class="tab__cost"><span>$35</span> / per hour</p>
+                                    <a href="#contacts" class="tab__link link">Order</a>
+                                </div>
+                            </div>
+                    </div>
 				</div>
+			</div>
 				<div class="prices-info">
 					<p class="prices-text">Our best <span>gardeners</span>  are ready to help you</p>
-					<button class="prices-btn link">Contact us</button>
+					<a href="#contacts"><button class="prices-btn link">Contact us</button></a>
 					<img class="prices-img" src="./assets/img/leafs_two.jpg" alt="leafs" width="152">
 				</div>
 			</div>
@@ -166,36 +163,104 @@
 			<img class="contacts__img" src="./assets/img/contact_woman.png" alt="contact woman" width="400">
 			<div class="contacts__info">
 				<h2 class="contacts-title">Contact us</h2>
-				<div class="select__header">
-					<span class="select__current">City</span>
-					<div class="select__icon"><img src="./assets/svg/accordion_btn.svg" width="16" alt="arrow up"></div>
-				</div>
+				<div class="select">
+        <div class="select__header">
+            <div class="select__current">City</div>
+            <div class="select__icon"><img src="./assets/svg/accordion_btn.svg" alt="icon" width="16"></div>
+        </div>
 
-				<!-- <div class="select is-active">
-					<div class="select__header">
-						<span class="select__current">City</span>
-						<div class="select__icon"><img src="./assets/svg/accordion_btn_active.svg" width="16"></div>
-					</div>
+        <div class="select__body">
+            <div class="items">
+                <div class="select__item">Canandaigua, NY</div>
+            </div>
+            <div class="items">
+                <div class="select__item">New York City</div>
+            </div>
+            <div class="items">
+                <div class="select__item">Yonkers, NY</div>
+            </div>
+            <div class="items">
+                <div class="select__item">Sherrill, NY</div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-container">
+        <div class="city-card cardOne">
+            <div class="city card-feature">
+                <div class="card-text">City:</div>
+                <div class="card-data city-data">Canandaigua, NY</div>
+            </div>
+            <div class="phone card-feature">
+                <div class="card-text">Phone:</div>
+                <div class="card-data phone-data">+1  585 393 0001</div>
+            </div>
+            <div class="address card-feature">
+                <div class="card-text">Office adress:</div>
+                <div class="card-data address-data">151 Charlotte Street</div>
+            </div>
+            <div class="card-button">
+                <a class="cards-link link" href="tel:+15853930001">Call us</a>
+            </div>       
+        </div>
 
-					<div class="select__body">
-						<div class="items">
-							<div class="select__item">Canandaigua, NY</div>
-						</div>
-						<div class="items">
-							<div class="select__item">New York City</div>
-						</div>
-						<div class="items">
-							<div class="select__item">Yonkers, NY</div>
-						</div>
-						<div class="items">
-							<div class="select__item">Sherrill, NY</div>
-						</div>
-					</div> -->
+        <div class="city-card cardTwo">
+            <div class="city card-feature">
+                <div class="card-text">City:</div>
+                <div class="card-data city-data">New York City</div>
+            </div>
+            <div class="phone card-feature">
+                <div class="card-text">Phone:</div>
+                <div class="card-data phone-data">+1 212 456 0002</div>
+            </div>
+            <div class="address card-feature">
+                <div class="card-text">Office adress:</div>
+                <div class="card-data address-data">9 East 91st Street</div>
+            </div>
+            <div class="card-button">
+                <a class="cards-link link" href="tel:+12124560002">Call us</a>
+            </div>          
+        </div>
 
-				</div>
+        <div class="city-card cardThree">
+            <div class="city card-feature">
+                <div class="card-text">City:</div>
+                <div class="card-data city-data">Yonkers, NY</div>
+            </div>
+            <div class="phone card-feature">
+                <div class="card-text">Phone:</div>
+                <div class="card-data phone-data">+1    914 678 0003</div>
+            </div>
+            <div class="address card-feature">
+                <div class="card-text">Office adress:</div>
+                <div class="card-data address-data">511 Warburton Ave</div>
+            </div>
+            <div class="card-button">
+                <a class="cards-link link" href="tel:+19146780003">Call us</a>
+            </div>       
+        </div>
+
+        <div class="city-card cardFour">
+            <div class="city card-feature">
+                <div class="card-text">City:</div>
+                <div class="card-data city-data">Sherrill, NY</div>
+            </div>
+            <div class="phone card-feature">
+                <div class="card-text">Phone:</div>
+                <div class="card-data phone-data">+1 315 908 0004</div>
+            </div>
+            <div class="address card-feature">
+                <div class="card-text">Office adress:</div>
+                <div class="card-data address-data">14 WEST Noyes BLVD</div>
+            </div>
+            <div class="card-button">
+                <a class="cards-link link" href="tel:+13159080004">Call us</a>
+            </div>   
+        </div>
+    </div>
+			</div>
 			</div>
 		</section>	
-	</div>
+	
 	</main>
 	<footer>
 		<div class="container footer-container">
